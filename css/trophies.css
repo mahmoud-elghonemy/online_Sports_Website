@@ -1,0 +1,312 @@
+body{
+   /* background-image:url(../photo/cms-image-000012469.jpg);*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+   /* background-repeat: no-repeat;*/
+    position: absolute;
+    background-color:silver;
+
+    
+}
+
+.mm{
+    float: left;
+    margin: 2% 10% 0 30%;
+    position: relative;
+    
+}
+.nav1{
+    width: 80%;
+    height: 40px;
+    background-color:snow;
+    margin: 0%  10%  0 10%;
+    
+    
+}
+.nav1 div{
+    float:right;
+    padding: 1px;
+    
+}
+
+
+.main{
+    width: 80%;
+    height: 100px;
+   background-color: red;
+    margin: 0%  10%  0 10%;
+    
+      
+}
+.main div{
+    float: left;
+}
+
+.nav2{
+    width: 80%;
+    height: 60px;
+    background-color:white;
+    margin: 0  10%  0 10%;
+    z-index: 1;
+    
+    
+    
+    
+}
+.nav2 ul{
+    padding: 5px;
+}
+.nav2 li{
+    background-color: white;
+}
+
+.nav2 div{
+    float: left;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    
+    
+    
+}
+ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+ ul li{
+    float: left;
+    width: 200px;
+    height: 50px;
+   
+   /* opacity: 0.8;*/
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: black;
+     
+}
+ ul li a{
+    text-decoration: none;
+   display: block;
+    color: black;
+}
+ ul li a:hover{
+    background-color: red;
+     color: white;
+}
+ ul li ul li {
+    display: none; /* to hide the list elements*/
+} 
+ ul li:hover ul li{
+    display: block;/* to view list elements as a block */
+}
+.nav li:hover{
+   background-color: red;    
+}
+            
+            .title{
+                
+                background-color: white;
+                margin: 5% 10%  0% 12%;
+                border-radius: 50%;
+                height: 150px;
+                text-align: center;
+            }
+            h1{
+                color: #cc0000;
+            }
+            #tit{
+                text-align: center;
+                
+            }
+           
+            h2{
+                color:#cc0000;
+                margin-left: 5px;
+            }
+           
+.champ{
+             background-color:#cccccc;
+	         width:340px;
+             height:300px;
+             float: left;
+            
+             border: 1px solid black;
+             text-align: center;
+             margin-bottom: 15px;
+             margin-top: 120px;
+              
+}
+             .champ:hover{
+                color:blue;
+             }
+            #img1{
+                margin-left: 200px;
+	            width: 490px;
+                height: 300px;
+                float: left;
+                border: 1px solid black;
+                margin-top: 120px;
+            }
+            .league{
+                background-color: #cccccc;
+                width: 340px;
+                height: 300px;
+                float: left;
+            /*    display: inline-block;*/
+                border: 1px solid black;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .league:hover{
+                color: blue;
+            }
+            #img2{
+                margin-left: 200px;
+                width: 490px;
+                height: 300px; 
+                float: left;
+                border: 1px solid black;
+            }
+            .fa{
+                background-color: #cccccc;
+                width: 340px;
+                height: 300px;
+                float: left;
+                display: inline-block;
+                border: 1px solid black;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+             .fa:hover{
+                color: blue;
+            }
+            #img3{
+                margin-left: 200px;
+                width: 490px;
+                height: 300px;
+                float: left;
+                border: 1px solid black;
+            }
+            .cup{
+                background-color: #cccccc;
+                width: 340px;
+                height: 300px;
+                float: left;
+                display: inline-block;
+                border: 1px solid black;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .cup:hover{
+                color: blue;
+            }
+            #img4{
+                 margin-left: 200px;
+                width: 490px;
+                height: 300px;
+                float: left;
+                border: 1px solid black;
+            }
+            .uefa{
+                background-color: #cccccc;
+                width: 340px;
+                height: 300px;
+                float: left;
+                display: inline-block;
+                border: 1px solid black;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .uefa:hover{
+                color: blue;
+            }
+            #img5{
+                margin-left: 200px;
+                width: 490px;
+                height: 300px;
+                float: left;
+                border: 1px solid black;
+            }
+            .super{
+                background-color: #cccccc;
+                width: 340px;
+                height: 300px;
+                float: left;
+                display: inline-block;
+                border: 1px solid black;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .super:hover{
+                color: blue;
+            }
+            #img6{
+                margin-left: 200px;
+                width: 490px;
+                height: 300px;
+                float: left;
+                border: 1px solid black;
+            }
+            .shield{
+                background-color: #cccccc;
+                width: 340px;
+                height: 300px;
+                float: left;
+                display: inline-block;
+                border: 1px solid black;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .shield:hover{
+                color: blue;
+            }
+            #img7{
+                margin-left: 200px;
+                width: 490px;
+                height: 300px;
+                float: left;
+                border: 1px solid black;
+            }
+            .youth{
+                background-color: #cccccc;
+                width: 340px;
+                height: 300px;
+                float: left;
+                display: inline-block;
+                border: 1px solid black;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .youth:hover{
+                color: blue;
+            }
+            #img8{
+                 margin-left: 200px;
+                width: 490px;
+                height: 300px;
+                float: left;
+                border: 1px solid black;
+            }
+            table,td,th{
+                border: 1px hiddem black;
+                text-align: center;
+                
+            }
+            table{
+                margin-left: 200px;
+                width: 830px;
+                background-color:#e6e6e6 ;
+            }
+.con{
+    margin: 0 10%  0 10%;
+}

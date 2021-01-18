@@ -1,0 +1,203 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+   
+    position: absolute;
+    background-color: brown;
+
+    
+}
+
+.mm{
+    float: left;
+    margin: 5% 10% 0 60%;
+    
+}
+.nav1{
+    width: 80%;
+    height: 40px;
+    background-color:snow;
+    margin: 0%  10%  0 10%;
+    
+    
+}
+.nav1 div{
+    float:right;
+    padding: 1px;
+    
+}
+
+
+.main{
+    width: 80%;
+    height: 100px;
+   background-color: red;
+    margin: -1%  10%  0 10%;
+    
+      
+}
+.main div{
+    float: left;
+}
+
+.nav2{
+    width: 80%;
+    height: 50px;
+    background-color:floralwhite;
+    margin: 0  10%  0 10%;
+    z-index: 1;
+    
+    
+    
+}
+.nav2 li{
+    background-color: floralwhite;
+}
+
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    
+    
+    
+}
+ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+ ul li{
+    float: left;
+    width: 200px;
+    height: 50px;
+   
+   
+    text-align: center;
+    line-height: 50px;/*height box world*/
+    font-size: 20px;
+    color: black;
+     
+}
+ ul li a{
+    text-decoration: none;
+   display: block;/*to display link in block*/
+    color: black;
+}
+ ul li a:hover{
+    background-color: red;
+     color: white;
+}
+ ul li ul li {
+    display: none; /* to hide the list elements*/
+} 
+ ul li:hover ul li{
+    display: block;/* to view list elements as a block */
+}
+.nav li:hover{
+   background-color: red;    
+}
+.container {background-color:white;
+width: 80%;
+margin:0 10% 0 10%;
+     
+position: absolute;
+
+    z-index: -1;/*display list */
+
+   
+     
+
+} 
+
+
+.section1 img{
+    width: 100%;
+
+}
+.section2 img{width: 100%;}
+
+.section1,.section2,.section3 { 
+margin:1vw;
+width:77vw;
+/*float: left;  */  
+background-color: white;
+/*display: inline-block;*/
+}
+.container div img{height:25vw;}
+
+div .text1{font-family: fantasy;
+    font-size:1.8vw;
+    width:77vw;
+    margin:-2.3vw 1vw 0vw 1vw ;
+    background-color:darkred;
+    color:white;
+    position: relative;
+    right:1vw;
+    opacity:0.65;
+}
+.father2,.father3{display: flex;
+flex-wrap: wrap;
+}
+.father1{display: flex;
+flex-wrap: nowrap;
+}
+.section2,section3 {width:37.5vw;
+    
+    position: relative;
+    right:1vw
+}
+ .text2,.text3{font-family: fantasy;
+    font-size:1.8vw;
+    width:37.5vw;
+    height:6.8vw;  
+    margin:-8vw 0.5vw 0vw 1vw ;
+    right:1vw;
+    background-color:darkred;
+    color:white;
+    position: relative;
+    display: flex;
+     flex-wrap: nowrap;
+     opacity:0.65 ;
+    
+    
+   }
+.clearfix{clear: both}/**to clear after float**/
+.footer h1{color: silver;
+text-align:center;
+font-family: sans-serif;
+font-weight: bold;
+    
+}
+.sponsors{height: 500px;
+width: 75.66%;
+   
+margin: 2% 10% 2% 10%;
+position: relative;
+    left:2.6vw;
+   
+}
+
+.sponsors ul{list-style: none;
+display: inline-block;
+background-color: white;
+
+
+    
+}
+.sponsors ul li img{ 
+   display: inline-block;
+    
+    height: 100%;    
+    }
+
+.final img {width:100%;
+    
+}

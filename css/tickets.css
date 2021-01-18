@@ -1,0 +1,140 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+   
+
+    font-family: sans-serif;
+    background-color: brown;
+}
+
+.loginbox{
+    width: 80%;
+    height:400uv;
+    background: #000;
+    color:#fff;
+   
+   position: absolute; /*he advantage is that they are not required to go out of their way*/
+  
+    box-sizing: border-box; /*becuse to small to save symetric*/
+    padding: 70px;
+    opacity: 0.8;
+    margin: 0 10% 0 10%;
+    
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    
+    left: 80% ;
+}
+#c{
+    clear:both;
+}
+#a{
+    float:left;
+}
+#b{
+    float: left;
+}
+.h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100px;
+    margin-bottom:20px; 
+}
+.loginbox input[type="text"],input[type="password"],input[type="eamil"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;/*to use backgroundcolor=backgroungpage*/
+    outline: none;/*use to display none border when to pointer*/
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    width: 250px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    color: white;
+    background-color: orange;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: red;
+    color:black;
+}
+
+
+.loginbox input[type="email"],input[type="tel"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    width: 250px;
+}
+.con1{
+    
+    float: left;
+    padding: 5%;
+}
+.clear{
+    clear: both;
+}
+.con2{
+    border-left: 1px;
+    border-style: solid;
+    border-color: white;
+    border-top:none;
+    border-bottom: none;
+    border-right: none;
+    float: left;
+    margin:0 10% 0 10%;
+    padding: 5%;
+}
+.con3{
+    margin: 0 10% 0 30%;
+}
+option,select{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 50%;
+    color: white;
+    background-color:chocolate;
+    font-size: 18px;
+    border-radius: 20px;
+}
+option:hover{
+    
+    background-color: red;
+    color:black;
+}
+select:hover{
+    background-color: red;
+    color:black;
+}
+optgroup:hover{
+    background-color: red;
+    color: white;
+}
